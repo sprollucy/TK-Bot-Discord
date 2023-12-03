@@ -32,7 +32,7 @@ class Program
 
         await RegisterCommandsAsync();
 
-        await _client.LoginAsync(TokenType.Bot, "MTE4MDkwMTM0NTE5MzEwNzUyNw.Gcvegu.7Re6YY2adKsD9V1SRURBxYgmbvua6eB5cp_NVg");
+        await _client.LoginAsync(TokenType.Bot, "");
         await _client.StartAsync();
 
         await Task.Delay(-1);
